@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Humaid Watches</title>
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: black;
+        color: gold;
+    }
+    header {
+        text-align: center;
+        padding: 20px;
+        font-size: 28px;
+        font-weight: bold;
+        background-color: #111;
+        border-bottom: 2px solid gold;
+    }
+    .watch-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 20px;
+        gap: 20px;
+    }
+    .watch-card {
+        background-color: #111;
+        width: 280px;
+        padding: 15px;
+        border-radius: 12px;
+        text-align: center;
+        border: 1px solid gold;
+        cursor: pointer;
+    }
+    .watch-card img {
+        width: 100%;
+        height: 280px;
+        object-fit: cover;
+        border-radius: 10px;
+        border: 2px solid gold;
+        transition: transform 0.3s;
+    }
+    .watch-card img:hover {
+        transform: scale(1.05);
+    }
+    .watch-name {
+        font-size: 22px;
+        margin: 10px 0;
+        font-weight: bold;
+    }
+    .price {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    .buy-btn {
+        background-color: gold;
+        color: black;
+        padding: 10px;
+        display: block;
+        text-align: center;
+        text-decoration: none;
+        font-weight: bold;
+        border-radius: 8px;
+    }
+    .custom-order {
+        text-align: center;
+        margin: 40px 20px;
+        padding: 20px;
+        border: 2px solid gold;
+        border-radius: 12px;
+        background-color: #111;
+    }
+    .custom-order h2 {
+        margin-bottom: 10px;
+    }
+    .custom-order p {
+        margin-bottom: 15px;
+    }
+    footer {
+        text-align: center;
+        padding: 15px;
+        background-color: #111;
+        border-top: 2px solid gold;
+        margin-top: 40px;
+    }
+</style>
+</head>
+<body>
+
+<header>Humaid Watches</header>
+
+<div class="watch-container">
+    <!-- WATCH 1 -->
+    <div class="watch-card">
+        <img src="https://i.ibb.co/bgvpWrbj/Screenshot-20251217-231120-2.jpg" alt="Watch 1">
+        <div class="watch-name">Ghost Masterpeice</div>
+        <div class="price">Rs 850</div>
+        <a class="buy-btn" href="https://wa.me/923152937342?text=I want to buy Royal Gold Edition (Rs 1099)">BUY ON WHATSAPP</a>
+    </div>
+
+    <!-- WATCH 2 -->
+    <div class="watch-card">
+        <img src="https://i.ibb.co/XZfhJbWf/Screenshot-20251217-231129-2.jpg" alt="Watch 2">
+        <div class="watch-name">Titanium Masterpiece</div>
+        <div class="price">Rs 899</div>
+        <a class="buy-btn" href="https://wa.me/923152937342?text=I want to buy Titanium Masterpiece (Rs 2999)">BUY ON WHATSAPP</a>
+    </div>
+
+    <!-- WATCH 3 -->
+    <div class="watch-card">
+        <img src="https://i.ibb.co/4wLwh2f6/Screenshot-20251220-002706.png" alt="Watch 3">
+        <div class="watch-name">Golden Chronograph</div>
+        <div class="price">Rs 1499</div>
+        <a class="buy-btn" href="https://wa.me/923152937342?text=I want to buy Midnight Steel Classic (Rs 1000)">BUY ON WHATSAPP</a>
+    </div>
+
+    <!-- WATCH 4 -->
+    <div class="watch-card">
+        <img src="https://i.ibb.co/PZ7098Mh/Screenshot-20251217-231054-2.jpg" alt="Watch 4">
+        <div class="watch-name">Imperical Luxury Watch</div>
+        <div class="price">Rs 2199</div>
+        <a class="buy-btn" href="https://wa.me/923152937342?text=I want to buy Elite Chrono Pro (Rs 2499)">BUY ON WHATSAPP</a>
+    </div>
+
+    <!-- WATCH 5 -->
+    <div class="watch-card">
+        <img src="https://i.ibb.co/MDbL6c13/Screenshot-20251220-002748.png" alt="Watch 5">
+        <div class="watch-name">Imperial Luxury Watch</div>
+        <div class="price">Rs 2199</div>
+        <a class="buy-btn" href="https://wa.me/923152937342?text=I want to buy Imperial Luxury Watch (Rs 2999)">BUY ON WHATSAPP</a>
+    </div>
+
+    <!-- WATCH 6 -->
+    <div class="watch-card">
+        <img src="https://i.ibb.co/gbHr5BdX/Screenshot-20251217-231146-2.jpg" alt="Watch 6">
+        <div class="watch-name">Silver Chronograph</div>
+        <div class="price">Rs 2399</div>
+        <a class="buy-btn" href="https://wa.me/923152937342?text=I want to buy Black Leather Minimalist (Rs 999)">BUY ON WHATSAPP</a>
+    </div>
+
+    <!-- WATCH 7 -->
+    <div class="watch-card">
+        <img src="https://i.ibb.co/MDxhsddg/Screenshot-20251025-192209-3.jpg" alt="Watch 7">
+        <div class="watch-name">Royal Silver Edition</div>
+        <div class="price">Rs 3000</div>
+        <a class="buy-btn" href="https://wa.me/923152937342?text=I want to buy Golden Chronograph (Rs 3499)">BUY ON WHATSAPP</a>
+    </div>
+</div>
+
+<div class="custom-order">
+    <h2>Custom Order</h2>
+    <p>If you want any watch that is not listed, send us its picture.</p>
+    <p>COD Available</p>
+    <p>All Pakistan delivery available</p>
+    <a class="buy-btn" href="https://wa.me/923152937342?text=I want to order a custom watch">Send Pic on WhatsApp</a>
+</div>
+
+<footer>© 2025 Humaid Watches — All Rights Reserved</footer>
+
+</body>
+</html>
